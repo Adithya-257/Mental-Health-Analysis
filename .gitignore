@@ -1,0 +1,29 @@
+# Data and models
+/data/
+/models/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model files
+*.pt
+*.bin
+*.safetensors
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs (if needed later)
+# /logs/
+
+#venv
+/venv/
+
