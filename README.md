@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Mental Health Monitoring Through Social Media Analytics
 
 An end-to-end mental health text analysis system using fine-tuned RoBERTa, 
