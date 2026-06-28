@@ -1,0 +1,53 @@
+[
+  {
+    "timestamp": "2026-06-28 18:46:30",
+    "config": {
+      "model": "roberta-base",
+      "batch_size": 8,
+      "grad_accum": 4,
+      "effective_batch_size": 32,
+      "learning_rate": 2e-05,
+      "weight_decay": 0.01,
+      "max_len": 512,
+      "epochs_run": 5,
+      "seed": 42
+    },
+    "history": {
+      "train_loss": [
+        0.736,
+        0.3239,
+        0.2199,
+        0.1464,
+        0.0952
+      ],
+      "val_loss": [
+        0.3977,
+        0.3634,
+        0.3925,
+        0.47,
+        0.4972
+      ],
+      "train_f1": [
+        0.7181,
+        0.8936,
+        0.9289,
+        0.9569,
+        0.973
+      ],
+      "val_f1": [
+        0.8705,
+        0.884,
+        0.885,
+        0.8815,
+        0.8851
+      ]
+    },
+    "test_metrics": {
+      "test_loss": 0.4896,
+      "test_f1_macro": 0.8862,
+      "test_accuracy": 0.8862,
+      "test_precision_macro": 0.8867,
+      "test_recall_macro": 0.8858
+    }
+  }
+]
