@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-06-30 00:44:27",
+  "model": "TF-IDF + Logistic Regression",
+  "config": {
+    "max_features": 50000,
+    "ngram_range": "(1,2)",
+    "min_df": 2,
+    "sublinear_tf": true,
+    "C": 1.0,
+    "solver": "lbfgs",
+    "class_weight": "balanced"
+  },
+  "val_metrics": {
+    "accuracy": 0.832,
+    "f1_macro": 0.8309,
+    "precision_macro": 0.8345,
+    "recall_macro": 0.8306
+  },
+  "test_metrics": {
+    "accuracy": 0.8411,
+    "f1_macro": 0.8412,
+    "precision_macro": 0.8464,
+    "recall_macro": 0.8399
+  }
+}
